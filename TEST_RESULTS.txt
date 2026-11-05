@@ -1,0 +1,86 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> harupoom-ready@2.0.0 test
+> node --test tests/*.test.mjs
+
+✔ T-015 server identity prevents other family read/write (9.218298ms)
+✔ server rejects unauthenticated and cross origin requests (1.424612ms)
+✔ T-014 API same-version writes reject second with no audit loss (4.4046ms)
+✔ API uses server actor, ignoring client impersonation (2.526946ms)
+✔ independent A/B sessions read same persistent shared state (2.031607ms)
+✔ reset uses monotonically increasing version to reject old commands (1.531112ms)
+✔ child day missing stays unknown and pending is not verified (1.312863ms)
+✔ differing observations flag review rather than resolving a diagnosis (0.272441ms)
+✔ records need source, exact valid date and known category value (1.359233ms)
+✔ child-day state is memory only and not connected to storage or transport (0.254204ms)
+✔ T-001 duplicate source ID and raw body do not create records (1.95398ms)
+✔ T-002 same title at different dates not merged (0.41052ms)
+✔ T-003 relative date without source timestamp requests review (0.462238ms)
+✔ T-004 ambiguous child is not assigned (0.624232ms)
+✔ T-005 read changes only read state (1.739937ms)
+✔ T-006 proposal requires recipient acceptance (0.727328ms)
+✔ T-007 purchasing does not complete packing (0.485724ms)
+✔ T-008 missing payment stays unconfirmed (0.24459ms)
+✔ T-009 caregiver payment report is not bank verification (0.470831ms)
+✔ T-010 date-only change preserves purchase and reschedules open work (0.993951ms)
+✔ T-011 color change preserves purchase and adds follow-up (0.524542ms)
+✔ T-012 omitted materials do not delete existing tasks (0.418221ms)
+✔ T-013 cancellation requires confirmation and preserves history (0.488497ms)
+✔ T-014 stale version is rejected (0.55004ms)
+✔ T-016 malformed model JSON does not change state (0.376919ms)
+✔ T-017 invented source IDs and quotes rejected (0.343589ms)
+✔ T-018 injected instructions remain text and grant no commands (0.207704ms)
+﹣ T-020 real push permission delivery is not implemented (0.077547ms) # SKIP
+✔ T-019 failure preserves last success and reports unknown notice state (0.203467ms)
+✔ T-021 overdue does not assert task failure (0.383769ms)
+✔ T-022 image-only caption invents no feelings or dialogue (0.117467ms)
+✔ T-023 gate unit check: revocation blocks before unconnected provider (0.350059ms)
+✔ T-024 model failure retains source and allows manual task (0.363248ms)
+✔ briefing prioritizes outstanding packing, omits completed buy from actions (0.608609ms)
+✔ completion cannot be set by AI or an unaccepted caregiver (0.327584ms)
+✔ completed task reopening preserves previous audit evidence (0.326223ms)
+✔ all seven demo scenes yield only apron packing then finish (2.815801ms)
+✔ invalid dates do not silently normalize (0.165219ms)
+✔ Asia/Seoul instant is stable regardless of viewer time zone (0.155665ms)
+﹣ DST zones and ambiguous transition times: P1 extension, Seoul only prototype (0.04632ms) # SKIP
+▶ documented npm start target serves the complete local prototype
+  ✔ root HTML and stylesheet return their exact packaged bytes (22.507004ms)
+  ✔ app and every relative JavaScript import are reachable (8.785415ms)
+  ✔ standalone HTML download returns exact offline package (4.407756ms)
+  ✔ source, runtime databases and unknown paths remain unavailable (6.421525ms)
+✔ documented npm start target serves the complete local prototype (196.078941ms)
+✔ calendar has real month days and rejects impossible dates (1.552574ms)
+✔ lunch requires manual confirmation and is date-specific and removable (3.237599ms)
+✔ fridge supports edit, remove and validated roundtrip without mutating previous state (0.524352ms)
+✔ units are never converted and expired entries do not count (0.511282ms)
+✔ suggestions are deterministic, acknowledge unknown lunch, honor exclusions and empty candidates (0.53618ms)
+✔ shopping only sends the selected catalog ingredient, never arbitrary input (0.231209ms)
+✔ exact original source spans including negation, time and whitespace (3.706266ms)
+✔ missing stays empty and unrecognized text remains visible for review (1.208845ms)
+✔ different observations remain distinct without resolving or diagnosing (0.497241ms)
+✔ one line may belong to multiple categories without changing text (0.312853ms)
+✔ size cap, memory-only workflow, no calls and no actual sharing (0.444381ms)
+✔ UI script seven-scene walkthrough, views, source dialog handlers run in DOM stub (99.047222ms)
+✔ packing only shows pack tasks; unassigned drop never completes (38.932654ms)
+✔ packing confirmation preserves source domain owner gate; duplicate complete rejected (7.664502ms)
+✔ medicine transcription checks, exact decimals, invalid values and escaping (10.129995ms)
+✔ pointer cancel and outside drop do not mutate tasks (7.735319ms)
+✔ medicine edits invalidate previous checked preview (4.820299ms)
+✔ simulated touch drop automatically confirms packing under current caregiver and keeps purchase untouched (10.196917ms)
+✔ touch outside drop, secondary touch and cancel never stage (4.296627ms)
+✔ medicine touch placements are independent, idempotent and maintain packet units (5.153982ms)
+✔ medicine cannot be placed before confirmation; tap alternative uses identical placement (4.302506ms)
+✔ auto packing does not take another caregivers task and duplicate drop is harmless (4.873138ms)
+✔ glue is a labeled tube; broad choice and escaped generic fallback exist (4.496829ms)
+✔ requested supplies have recognizable custom SVGs and correct automatic categories (4.441076ms)
+✔ checkbox adds icon inside bag; uncheck removes it and source purchase stays separate (7.39745ms)
+✔ four synthetic supply examples are idempotent and all render in bag only when checked (21.84289ms)
+✔ native checkbox change routes to same completion and reopen actions (7.869792ms)
+ℹ tests 72
+ℹ suites 0
+ℹ pass 70
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 2
+ℹ todo 0
+ℹ duration_ms 4273.741413
